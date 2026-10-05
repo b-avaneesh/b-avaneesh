@@ -5,12 +5,12 @@
 }
 
 :root {
-    --accent: #b5452b;      /* brick red */
-    --accent-light: #f6e7e1;
-    --ink: #222;
-    --muted: #666;
-    --line: #e3dfd8;
-    --paper: #fbfaf6;
+    --accent: #1d4e89;      /* navy blue */
+    --accent-light: #e8eef6;
+    --ink: #14213d;
+    --muted: #5b6475;
+    --line: #dde3ea;
+    --paper: #ffffff;
 }
 
 html {
@@ -19,9 +19,9 @@ html {
 }
 
 body {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 17px;
-    line-height: 1.6;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
     color: var(--ink);
     background: var(--paper);
 }
@@ -56,7 +56,7 @@ nav {
 nav a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    color: #ddd;
+    color: #c9d3e3;
     text-decoration: none;
 }
 
@@ -97,7 +97,7 @@ nav .name {
     height: 195px;
     object-fit: cover;
     object-position: top;
-    border: 1px solid #d9c9c2;
+    border: 1px solid #c3cfdf;
     padding: 5px;
     background: #fff;
     flex-shrink: 0;
@@ -162,6 +162,12 @@ h2 {
     line-height: 1.2;
 }
 
+h1,
+h2,
+h3 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
 h3 {
     font-size: 17px;
 }
@@ -223,7 +229,7 @@ th {
 }
 
 tr:nth-child(even) {
-    background: #f7f4ee;
+    background: #f4f7fb;
 }
 
 /* Interests */
@@ -245,7 +251,7 @@ tr:nth-child(even) {
 }
 
 .box p {
-    font-size: 15px;
+    font-size: 14px;
     color: var(--muted);
 }
 
@@ -270,7 +276,7 @@ tr:nth-child(even) {
 /* Footer */
 footer {
     background: var(--ink);
-    color: #aaa;
+    color: #9fb0c9;
     text-align: center;
     padding: 18px 20px;
     font-family: Arial, Helvetica, sans-serif;
